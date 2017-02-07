@@ -21,3 +21,5 @@ ENV APP_INSTANCE app
 RUN mkdir ${APP_DIR}
 WORKDIR ${APP_DIR}
 
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
