@@ -134,7 +134,6 @@ services:
       - 8000:8000
     volumes:
       - ./:/src
-
 ```
 
 Then simply compose your project

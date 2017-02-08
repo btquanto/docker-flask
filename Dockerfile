@@ -9,6 +9,7 @@ RUN apk add --no-cache \
 		build-base \
 		python-dev \
 		libffi-dev \
+		postgresql-dev \
 	&& pip2 install --upgrade pip \
 	&& pip install gunicorn==19.6.0 flask==0.12
 
